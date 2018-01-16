@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('sobre');
+  this.route('/');
+  // this.route('sobre');
+  this.route('novo-amigo');
 });
 
 export default Router;
